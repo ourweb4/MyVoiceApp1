@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVoiceApp.iOS", "MyVoiceApp.iOS.csproj", "{42E6541D-C288-4D40-8AFC-EB275CF99B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Release|iPhone.Build.0 = Release|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{42E6541D-C288-4D40-8AFC-EB275CF99B1B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+	EndGlobalSection
+EndGlobal

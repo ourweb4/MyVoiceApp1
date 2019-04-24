@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+ <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyVoiceApp"
+             xmlns:Pages="clr-namespace:MyVoiceApp.Pages"
+             x:Class="MyVoiceApp.MainPage">
+     <Pages:TalkPage Title="Talk"></Pages:TalkPage>
+    <Pages:EditPage Title="Edit"></Pages:EditPage>
+     <Pages:SettingsPage Title="Settings"></Pages:SettingsPage>
+     <Pages:HelpPage Title="Help"></Pages:HelpPage>
+
+</TabbedPage>
