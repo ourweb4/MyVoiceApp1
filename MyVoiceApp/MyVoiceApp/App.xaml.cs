@@ -14,7 +14,7 @@ namespace MyVoiceApp
         // settings keys
 
         public const string AutoKey = "AUTO";
-
+        public const string UUKey = "UKey";
 
         public string Version
         {
@@ -68,6 +68,28 @@ namespace MyVoiceApp
                     return true;
                 }
                 return (bool)Properties[AutoKey];
+
+
+            }
+        }
+
+
+        public string  ukey
+        {
+            set
+            {
+                Properties[UUKey] = value;
+
+                SavePropertiesAsync();
+
+            }
+            get
+            {
+                if (Properties.ContainsKey(UUKey) == false)
+                {
+                    return "";
+                }
+                return (string )Properties[UUKey];
 
 
             }
