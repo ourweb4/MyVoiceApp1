@@ -4,7 +4,7 @@
 // Created          : 03-18-2021
 //
 // Last Modified By : Bill   Banks
-// Last Modified On : 04-03-2021
+// Last Modified On : 06-13-2021
 // ***********************************************************************
 // <copyright file="RegistarPage.xaml.cs" company="MyVoiceApp">
 //     Copyright (c) Ourweb.net. All rights reserved.
@@ -35,7 +35,7 @@ namespace MyVoiceApp.Pages
     {
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="RegistarPage"/> class.
+        /// Initializes a new instance of the <see cref="RegistarPage" /> class.
         /// </summary>
         public RegistarPage()
         {
@@ -46,7 +46,7 @@ namespace MyVoiceApp.Pages
         /// Handles the Clicked event of the save control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
         private async void  save_Clicked(object sender, EventArgs e)
         {
             var em = txtemail.Text;

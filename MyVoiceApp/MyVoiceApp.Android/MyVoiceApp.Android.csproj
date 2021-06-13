@@ -57,8 +57,8 @@
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <AndroidLinkTool>r8</AndroidLinkTool>
-    <AndroidKeyStore>false</AndroidKeyStore>
-    <AndroidSigningKeyStore>myvociceapp</AndroidSigningKeyStore>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>C:\Users\Bill\AppData\Local\Xamarin\Mono for Android\Keystore\myvoiceapp\myvoiceapp.keystore</AndroidSigningKeyStore>
     <AndroidSigningStorePass>a132313b</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>myvoiceapp</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>a132313b</AndroidSigningKeyPass>

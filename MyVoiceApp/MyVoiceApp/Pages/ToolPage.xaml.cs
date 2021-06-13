@@ -79,7 +79,7 @@ namespace MyVoiceApp.Pages
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private async void Backup_Clicked(object sender, EventArgs e)
         {
-
+             try { 
             var app = Application.Current as App;
             uid = app.ukey;
             ReadDB();
@@ -111,7 +111,13 @@ namespace MyVoiceApp.Pages
             }
             await DisplayAlert("Success", "Backup as been completed", "OK");
 
+            }
+            catch (Exception ex)
 
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+
+            }
         }
 
         /// <summary>
@@ -121,6 +127,7 @@ namespace MyVoiceApp.Pages
         /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private async void Restore_Clicked(object sender, EventArgs e)
         {
+            try { 
             ReadDB();
             foreach (var w in words)
             {
@@ -139,7 +146,13 @@ namespace MyVoiceApp.Pages
             }
 
             await DisplayAlert("Success", "Restore as been completed", "OK");
+            }
+            catch (Exception ex)
 
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+
+            }
         }
 
 
