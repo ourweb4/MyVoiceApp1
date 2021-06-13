@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyVoiceApp.Pages.ToolPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button Text="Backup" Clicked="Backup_Clicked" />
+            <Button Text="Restore" Clicked="Restore_Clicked"/>
+            <Button Text="Logoff" Clicked="Logoff_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

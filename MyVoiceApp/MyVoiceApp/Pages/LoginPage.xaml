@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MyVoiceApp.Pages.SettingsPage"
-             Title="Settings">
+             x:Class="MyVoiceApp.Pages.LoginPage">
 
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
@@ -15,9 +14,10 @@
     </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Auto Talk" />
-            <Switch x:Name="swauto" OnColor="Green"></Switch>
-
+            <Entry x:Name="txtemail" Keyboard="Email" Placeholder="Email" />
+            <Entry x:Name="txtpassword"  Placeholder="Password" />
+            <Button x:Name="btnlogin" Text="Login" Clicked="btnlogin_Clicked"></Button>
+            <Button x:Name="btnreg" Text="Registar" Clicked="btnreg_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

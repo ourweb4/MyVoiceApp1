@@ -1,71 +1,59 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Text;
 
-namespace MyVoiceApp.UserAPI.Models
+namespace MyVoiceApp.Models
 {
-    public class User
+    class User
     {
+        public string Uid { get; set; }
 
-        public int Id { get; set; }
-        /// <summary>
-        /// Gets or sets the first.0
-        /// </summary>
-        /// <value>The first.</value>
-
-        public string First { get; set; }
+        public string first { get; set; }
         /// <summary>
         /// Gets or sets the last.
         /// </summary>
         /// <value>The last.</value>
-
-        public string Last { get; set; }
+        public string last { get; set; }
         /// <summary>
         /// Gets or sets the company.
         /// </summary>
         /// <value>The company.</value>
-        public string Company { get; set; }
+        public string company { get; set; }
         /// <summary>
         /// Gets or sets the email.
         /// </summary>
         /// <value>The email.</value>
-
-        public string Email { get; set; }
+        public string email { get; set; }
         /// <summary>
         /// Gets or sets the address.
         /// </summary>
         /// <value>The address.</value>
-        public string Address { get; set; }
+        public string address { get; set; }
         /// <summary>
         /// Gets or sets the city.
         /// </summary>
         /// <value>The city.</value>
-        public string City { get; set; }
+        public string city { get; set; }
         /// <summary>
         /// Gets or sets the state.
         /// </summary>
         /// <value>The state.</value>
-        public string State { get; set; }
+        public string state { get; set; }
         /// <summary>
         /// Gets or sets the zip.
         /// </summary>
         /// <value>The zip.</value>
-        public string Zip { get; set; }
+        public string zip { get; set; }
         /// <summary>
         /// Gets or sets the coutry.
         /// </summary>
         /// <value>The coutry.</value>
-        public string Coutry { get; set; }
+        public string coutry { get; set; }
         /// <summary>
         /// Gets or sets the phone.
         /// </summary>
         /// <value>The phone.</value>
-        public string Phone { get; set; }
+        public string phone { get; set; }
 
-        public string  UserName { get; set; }
-        public string Password { get; set; }
-        public string UKey { get; set; }
-        public DateTime  RegDateTime { get; set; }
     }
 }

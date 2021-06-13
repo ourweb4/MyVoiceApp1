@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>12.0</string>
+	<string>14.5</string>
 	<key>CFBundleDisplayName</key>
 	<string>MyVoiceApp</string>
 	<key>CFBundleIdentifier</key>
@@ -31,10 +31,12 @@
 	<key>CFBundleName</key>
 	<string>MyVoiceApp</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
-	<key>CFBundleIconName</key>
+	<string>1.5.0</string>
+	<key> CFBundelconName</key>
 	<string>AppIcon</string>
 	<key>CFBundleVersion</key>
-	<string>24</string>
+	<string>29</string>
+	<key>XSAppIconAssets</key>
+	<string>Resources/Assets.xcassets/AppIcon.appiconset</string>
 </dict>
 </plist>

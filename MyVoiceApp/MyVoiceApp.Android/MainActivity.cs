@@ -48,6 +48,7 @@ namespace MyVoiceApp.Droid
             string dbpath = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             string fullpath = Path.Combine(dbpath, dbname);
 
+            Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
             LoadApplication(new App(fullpath));
        }

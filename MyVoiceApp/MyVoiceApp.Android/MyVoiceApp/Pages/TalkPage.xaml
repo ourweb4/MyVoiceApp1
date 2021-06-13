@@ -3,17 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyVoiceApp.Pages.TalkPage"
              Title="My Voice">
-
-
-    <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness">
-            <OnPlatform.Platforms>
-                <On Platform="iOS" Value="0, 20, 0, 0" />
-                <On Platform="Android" Value="0, 0, 0, 0" />
-                <On Platform="UWP" Value="0, 0, 0, 0" />
-            </OnPlatform.Platforms>
-        </OnPlatform>
-    </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout>
             <StackLayout  Orientation="Horizontal">

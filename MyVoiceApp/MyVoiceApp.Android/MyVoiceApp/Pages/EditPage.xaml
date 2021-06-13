@@ -2,17 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyVoiceApp.Pages.EditPage"
-            Title="Edit">
-
-    <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness">
-            <OnPlatform.Platforms>
-                <On Platform="iOS" Value="0, 20, 0, 0" />
-                <On Platform="Android" Value="0, 0, 0, 0" />
-                <On Platform="UWP" Value="0, 0, 0, 0" />
-            </OnPlatform.Platforms>
-        </OnPlatform>
-    </ContentPage.Padding>
+             Title="Edit">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="New" Clicked="MenuNew_OnClicked"></ToolbarItem>
         <ToolbarItem Text="Save" Clicked="MenuSave_OnClicked"></ToolbarItem>

@@ -47,8 +47,8 @@ namespace MyVoiceApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-           
 
+            Firebase.Core.App.Configure();
 
             string dbname = "data.sqlite";
             string dbpath = Path.Combine(System.Environment.GetFolderPath(Environment.SpecialFolder.Personal), "..", "Library");
