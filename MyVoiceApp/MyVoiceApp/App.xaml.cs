@@ -33,7 +33,7 @@ namespace MyVoiceApp
         /// <summary>
         /// The ver
         /// </summary>
-        private const string _ver = "Ver 1.5.1";
+        private const string _ver = "Ver 1.5.3";
 
         // settings keys
 

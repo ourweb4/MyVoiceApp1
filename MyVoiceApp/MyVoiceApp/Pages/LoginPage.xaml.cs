@@ -49,10 +49,10 @@ namespace MyVoiceApp.Pages
             try { 
             var em = txtemail.Text;
             var pw = txtpassword.Text;
-            // With Credential
-            var credential = CrossFirebaseAuth.Current.EmailAuthProvider.GetCredential(em , pw);
-            await CrossFirebaseAuth.Current.Instance.CurrentUser.ReauthenticateAsync(credential);
-            var uid = CrossFirebaseAuth.Current.Instance.CurrentUser.Uid;
+                // With Credential
+                var result = await CrossFirebaseAuth.Current.Instance.SignInWithEmailAndPasswordAsync(em, pw);
+            var uid=    result.User.Uid;
+        //        var uid = CrossFirebaseAuth.Current.Instance.CurrentUser.Uid;
             if (uid != null)
             {
                 var app = Application.Current as App;

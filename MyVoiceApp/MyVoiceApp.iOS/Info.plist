@@ -30,13 +30,13 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>MyVoiceApp</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.5.1</string>
 	<key> CFBundelconName</key>
 	<string>AppIcon</string>
-	<key>CFBundleVersion</key>
-	<string>29</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5.3</string>
+	<key>CFBundleVersion</key>
+	<string>32</string>
 </dict>
 </plist>

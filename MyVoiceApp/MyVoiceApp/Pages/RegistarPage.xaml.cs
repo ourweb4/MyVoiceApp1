@@ -53,6 +53,9 @@ namespace MyVoiceApp.Pages
             var pw = txtpassword.Text;
             if (em != null && pw != null )
             {
+              if (txtfirstname.Text != null && txtlastname.Text != null && txtphone.Text != null  )
+                {      
+
                 try
                 {
                     var result = await CrossFirebaseAuth.Current.Instance.CreateUserWithEmailAndPasswordAsync(em, pw);
@@ -96,7 +99,12 @@ namespace MyVoiceApp.Pages
             {
                await  DisplayAlert("Error", "Email/password cant be blank", "OK");
             }
-            
+            }
+            else
+            {
+                await DisplayAlert("Error", "Form cant be blank", "OK");
+            }
+
         }
     }
 }
